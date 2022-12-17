@@ -7,7 +7,7 @@
 }
 
 body {
-	background-image: url(../img/bg4.jpg);
+	background-image: url(../img/pexels-iván-lada-867486.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -37,7 +37,7 @@ main {
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
 	/*trasparencias de fondo*/
-	background-color: rgba(0, 128, 255, 0.5);
+	background-color: rgba(75, 77, 78, 0.5);
 }
 
 .caja__trasera div {
@@ -88,15 +88,13 @@ main {
 	position: relative;
 	top: -185px;
 	left: 10px;
-
-
-	/*transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);*/
+	transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
 .contenedor__login-register form {
 	width: 90%;
 	padding: 80px 20px;
-	background: white;
+	background: rgb(255, 255, 255);
 	position: absolute;
 	border-radius: 118px;
 }
@@ -125,9 +123,9 @@ main {
 	font-size: 14px;
 	background: #46a2fd;
 	font-weight: 600;
-	color: white;
 	cursor: pointer;
-	outline: none;
+    color: white;
+    outline: none;
 }
 
 
